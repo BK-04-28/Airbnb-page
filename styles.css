@@ -1,0 +1,362 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.container{
+
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      margin-left: 4em;
+     
+}
+#air{
+       
+        color: rgb(214, 30, 91);
+        font-size: 25px;
+        font-size: 40px;       
+}
+#name{
+        display: flex;
+        display: inline;
+        color: rgb(230, 86, 110);
+        font-weight: bold;
+        font-size: xx-large;
+}
+
+.text{
+     margin-top: 15px;   
+}
+#center{
+
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        /* font-weight: bold; */
+        padding-right: 1em;
+        font-size: 21px;
+       
+       
+        
+}
+#cent{
+    text-decoration: none;
+    color: rgb(157, 152, 152);
+    font-size: 19px;
+    
+
+    
+}
+.icon{
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color: #000;
+        
+}
+#comment{
+
+          margin-right: 20px;
+          margin-left: 20px;
+}
+#bar{
+
+     margin-right: 10px;
+     margin-left: 20px;
+     font-size: large;
+     
+}
+#user{
+        font-size: x-large;
+}
+.button{
+        
+        border-radius: 25px;
+        padding: 10px;
+        cursor: pointer;
+        border: rgb(157, 152, 152);
+        margin-right: 5em;
+        border: 1px solid rgb(157, 152, 152); ;
+}
+.searchbar{
+         
+          display: flex;
+          justify-content: space-between;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 40px;
+          width:900px;
+          height: 70px;
+          background-color: white;
+          padding: 10px 45px;
+          margin:2em 3em 0 17em;
+          border: 1px solid rgb(204, 198, 198);
+          
+}
+label{
+        margin-top: 5px;
+}
+.input-group{
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+}
+input{
+        border-style: none;
+        background-color: white;
+}
+#check-in{
+
+          margin-left: 2em;
+}
+#dates{
+        margin-left: 2em;
+}
+
+#logo-icon{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 20px;
+           margin-bottom: 100%;
+           background-color: rgb(221, 69, 94);
+           width: 50px;
+            height: 50px;
+          text-align: center; 
+           color: white;
+           border-radius: 70px;
+           padding-left: 4px;
+      
+}
+#hr{
+        color: rgba(204, 198, 198, 0.946);
+        margin-top: 20px
+}
+.images{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+        
+}
+.image{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 23%;
+        overflow: hidden;
+        margin-top: 25px;
+        margin-left:4%;   
+}
+
+
+.icons{
+        display: flex;
+       
+}
+.twitter{
+
+        margin-left: 6%;
+        font-size: 2em;
+        
+}
+.instagram{
+        margin-left: 4%;
+        font-size: 2em;
+}
+.facebook{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.linkedin{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.git-hub{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.shopping{
+
+        margin-left: 4%;
+        font-size: 2em;
+}
+.google{
+
+        margin-left: 4%;
+        font-size: 2em;
+}
+.whatsapp{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.chrome{
+
+        margin-left: 4%;
+        font-size: 2em;
+}
+.youtube{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.play-store{
+
+        margin-left: 4%;
+        font-size: 2em;
+} 
+.game{
+
+        margin-right: 4%;
+        font-size: 2em;
+} 
+.snap-chat{
+
+        margin-right: 4%;
+        font-size: 2em;
+} 
+#twit{
+        margin-right: 9%;
+        font-size: 2em;
+}
+#car{
+        margin-left: 2em;
+        font-size: 2em;
+}
+#upload
+{
+        position: absolute;
+        left: 300px;
+        margin-top: 10px;
+        color:rgb(244, 244, 251) ;
+        font-size: 30px;       
+}
+#up{
+        font-size: 30px;  
+        position: absolute;
+        left: 645px;
+        margin-top: 10px;
+        color: rgb(244, 244, 251);   
+}
+#arrow{
+        font-size: 30px;  
+        position: absolute;
+         margin-top: 10px;
+         right: 440px;
+        color: rgb(244, 244, 251);   
+}
+#load{
+        font-size: 30px;
+        position: absolute;
+        margin-top: 10px;
+        right: 100px;
+        color: white;
+}
+#dots{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        left: 13%;
+        color: white;
+}
+#slick{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        left: 37%;
+
+}
+#slider{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        right: 38%;
+}
+#dot{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        right: 14%;
+}
+.second-row{
+
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+}
+.web-series{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 23%;
+        overflow: hidden;
+        margin-top: 25px;
+        margin-left:4%; 
+}
+#saver{
+        position: absolute;
+        left: 300px;
+         margin-top: 10px;
+        color: white;
+        font-size: 30px; 
+}
+#save{
+        position: absolute;
+        left: 645px;
+         margin-top: 10px;
+        color: white;
+        font-size: 30px; 
+}
+#cloud{
+        position: absolute;
+        margin-top: 10px;
+        right: 440px;
+        color: white;
+        font-size: 30px; 
+}
+#arrow-up{
+        position: absolute;
+        margin-top: 10px;
+        right: 100px;
+        font-size: 30px; 
+        color: white;
+}
+#s-dots{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        left: 13%;
+        color: white;
+}
+#s-slick{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        left: 37%;
+}
+#s-slider{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        right: 38%;
+}
+#s-dot{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 15%;
+        color: white;
+        right: 14%;
+}
+
+
+
+
+
+
+      
