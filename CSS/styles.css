@@ -77,13 +77,12 @@
           justify-content: space-between;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           border-radius: 40px;
-          width:900px;
+          width:800px;
           height: 70px;
           background-color: white;
           padding: 10px 45px;
-          margin:2em 3em 0 17em;
-          border: 1px solid rgb(204, 198, 198);
-          
+          margin:2em 6em 0 12em;
+          border: 1px solid rgb(204, 198, 198);      
 }
 label{
         margin-top: 5px;
@@ -113,22 +112,24 @@ input{
            margin-bottom: 100%;
            background-color: rgb(221, 69, 94);
            width: 50px;
-            height: 50px;
+           height: 50px;
           text-align: center; 
            color: white;
            border-radius: 70px;
-           padding-left: 4px;
+           padding-left: 3px;
+           position: absolute;
+          right: 21%;
+           
       
 }
 #hr{
         color: rgba(204, 198, 198, 0.946);
-        margin-top: 20px
+        margin-top: 20px;
 }
 .images{
         display: flex;
         justify-content: space-between;
-        margin-right: 5%;
-        
+        margin-right: 5%;     
 }
 .image{
         background-color: white;
@@ -139,8 +140,6 @@ input{
         margin-top: 25px;
         margin-left:4%;   
 }
-
-
 .icons{
         display: flex;
        
